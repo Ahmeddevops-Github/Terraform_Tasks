@@ -14,3 +14,12 @@ Task_1.1
         
     Add bob, tim, ben to Developer group above. 
     Add ben to both groups
+
+Task_1.2
+
+    Create S3 bucket with versioning enabled and has the following tags:
+        Name        = "My bucket"
+        Environment = "Dev"
+    S3 bucket should have a private ACL
+
+    
