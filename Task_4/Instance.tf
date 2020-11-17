@@ -9,3 +9,4 @@ resource "aws_instance" "Terraform-Created-Centos_6_Instance" {
     Name = "Centos 6 Instance"
   }
 }
+
