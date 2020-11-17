@@ -23,3 +23,4 @@ resource "aws_iam_instance_profile" "Terraform-Created-Centos_IAM_Profile" {
   name  = "Terraform-Admin_Profile"
   role = "${aws_iam_role.Terraform-Created-Centos_IAM_Admin_Role.name}"
 }
+
