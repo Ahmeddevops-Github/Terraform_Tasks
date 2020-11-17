@@ -8,3 +8,4 @@ resource "aws_volume_attachment" "Elastic_Block_Store_Attachment" {
   volume_id   = "${aws_ebs_volume.Terraform-Created-Elastic_Block_Store.id}"
   instance_id = "${aws_instance.Terraform-Created-Centos_6_Instance.id}"
 }
+
