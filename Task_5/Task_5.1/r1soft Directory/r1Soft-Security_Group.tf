@@ -32,3 +32,4 @@ resource "aws_security_group" "Terraform-R1_Soft-Security_Group" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 }
+
