@@ -12,3 +12,4 @@ data "aws_ami" "Terraform-R1Soft_Server-Centos_ami" {
     values = ["CentOS Linux 7 x86_64 HVM EBS *"]
   }
 }
+
