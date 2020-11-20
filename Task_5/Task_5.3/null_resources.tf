@@ -16,3 +16,5 @@ resource "null_resource" "Terraform-Nagios-Null_Resource" {
     ]
   }
 }
+
+
